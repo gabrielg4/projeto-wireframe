@@ -171,3 +171,34 @@ header nav .btn-primary {
     text-align: center;
     margin-top: 0.8rem;
 }
+
+.s-card-featured .section-area {
+    margin-top: 11.2rem;
+}
+
+
+.s-card-featured .section-area .top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    margin-bottom: 6.4rem;
+}
+
+.section-area .all-images {
+    display: flex;
+    justify-content: space-between ;
+    flex-wrap: wrap;
+    gap: 3.2rem;
+}
+
+.section-area .all-images .image {
+    background-color: var(--grey-colors-200);
+    width: 100%;
+    max-width: 176px;
+    height: 112px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
