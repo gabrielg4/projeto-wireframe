@@ -8,6 +8,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Sora:wght@400;600&display=swap" rel="stylesheet"> 
 
+    <link rel="shortcut icon" href="./favicon.svg" type="image/x-icon">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
     <link rel="stylesheet" href="./css/variables.css">
     <link rel="stylesheet" href="./css/grid.css">
     <link rel="stylesheet" href="./css/patterns.css">
@@ -36,7 +39,7 @@
             </div>
         </header>
 
-        <section class="s-hero">
+        <section data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine" class="s-hero">
             <div class="container">
                 <div class="text">
                     <h1>Front-end descomplicado e direto ao ponto!</h1>
@@ -49,7 +52,8 @@
             </div>
         </section>
 
-        <section class="s-card-featured">
+        <section data-aos="fade-up"
+        data-aos-anchor-placement="top-bottom" class="s-card-featured">
             <div class="container">
                 <div class="main-area">
                     <div class="title center">
@@ -57,7 +61,7 @@
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                     </div>
                     <div class="all-cards">
-                        <div class="card">
+                        <div data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1500" class="card">
                             <div class="icon">
                                 <img src="img/ico-icon-circle.svg" alt="Icon">
                             </div>
@@ -66,7 +70,7 @@
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nunc orci, eleifend eu porta eu, viverra non metus. </p>
                             </div>
                         </div>
-                        <div class="card white">
+                        <div data-aos="fade-up" data-aos-duration="1500" class="card white">
                             <div class="icon">
                                 <img src="img/ico-icon-circle.svg" alt="Icon">
                             </div>
@@ -75,7 +79,7 @@
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nunc orci, eleifend eu porta eu, viverra non metus. </p>
                             </div>
                         </div>
-                        <div class="card">
+                        <div data-aos="fade-up" data-aos-duration="1500" class="card">
                             <div class="icon">
                                 <img src="img/ico-icon-circle.svg" alt="Icon">
                             </div>
@@ -136,9 +140,9 @@
             </div>
         </section>
 
-        <section class="s-newsletter">
+        <section  class="s-newsletter">
             <div class="container">
-                <div class="faca-parte">
+                <div data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine" class="faca-parte">
                     <h2>Front-end descomplicado e direto ao ponto!</h2>
                     <p>Aprenda a desenvolver interfaces modernas e de alta qualidade com quem está na área atuando com projetos altamente renomados.</p>
                     <a href="#" class="btn-primary">Fazer parte da lista de espera</a>
@@ -201,5 +205,8 @@
                 </div>
             </div>
         </footer>
+
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script src="./js/main.js"></script>
 </body>
 </html>
